@@ -11,4 +11,4 @@ make<br>
 git-bash (for windows)<br>
 STM32_Programmer_CLI.exe Program to upload .elf file to the microcontroller / Blue Pill<br>
 <hr>
-To compile, navigate to the directory containing main.c (using git-bash in Windows) and type 'make'. Make will also attempt to upload the code to the microcontroller, so, make sure it is connected and ready to accept code before performing the make command. Optionally, the .elf file can be uploaded manually as a separate process.
+To compile, navigate to the directory containing main.c (using git-bash in Windows). If using LInux, rename Makefile.Linux to Makefile. Likewise, if using Windows, rename Makefile.Windows to Makefile. Then type 'make'. Assuming STM32CubeProgrammer is installed in the expected folder, make will also attempt to upload the code to the microcontroller, so, make sure it is connected and ready to accept code before performing the make command. Optionally, the .elf file can be uploaded manually as a separate process.
